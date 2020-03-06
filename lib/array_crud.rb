@@ -7,9 +7,9 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  names = ["Adam", "Bob", "Christine", "Dana"]
-  names.unshift ("Zero name")
-  
+  array = ["wow", "I", "am", "really", "learning"]
+  element = "arrays!"
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
