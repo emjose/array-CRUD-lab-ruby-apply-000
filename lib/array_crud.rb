@@ -8,8 +8,8 @@ end
 
 def add_element_to_end_of_array(array, element)
   names = ["Adam", "Bob", "Christine", "Dana"]
-  names << "Eric"
-  puts names[4]
+  names.unshift ("Zero name")
+  
 end
 
 def add_element_to_start_of_array(array, element)
